@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <div class = wrapper>
+        <p>Insira seu usuário e senha</p>
+        <form action="cadastro.php" method="POST">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="ra">RA:</label>
+        <input type="text" id="ra" name="ra" required><br><br>
+
+        <label for="placa">Placa do Carro ou Moto (somente números):</label>
+        <input type="text" id="placa" name="placa" required><br><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
